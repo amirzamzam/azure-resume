@@ -12,7 +12,7 @@
 			"type": "process",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/backend\\api\\obj"
+				"cwd": "${workspaceFolder}/backend/api/obj"
 			}
 		},
 		{
@@ -31,7 +31,7 @@
 			},
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/backend\\api\\obj"
+				"cwd": "${workspaceFolder}/backend/api/obj"
 			}
 		},
 		{
@@ -47,7 +47,7 @@
 			"type": "process",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/backend\\api\\obj"
+				"cwd": "${workspaceFolder}/backend/api/obj"
 			}
 		},
 		{
@@ -64,14 +64,14 @@
 			"dependsOn": "clean release (functions)",
 			"problemMatcher": "$msCompile",
 			"options": {
-				"cwd": "${workspaceFolder}/backend\\api\\obj"
+				"cwd": "${workspaceFolder}/backend/api/obj"
 			}
 		},
 		{
 			"type": "func",
 			"dependsOn": "build (functions)",
 			"options": {
-				"cwd": "${workspaceFolder}/backend\\api\\obj/bin/Debug/net6.0"
+				"cwd": "${workspaceFolder}/backend/api/obj/bin/Debug/net6.0"
 			},
 			"command": "host start",
 			"isBackground": true,
